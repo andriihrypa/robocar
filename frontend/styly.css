@@ -1,0 +1,66 @@
+.stream {
+    display: block;
+    margin: 0 auto;
+}
+
+.control {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.upkey:focus, .leftkey:focus, .rightkey:focus, .downkey:focus {
+    outline: none;
+}
+.upkey:active, .leftkey:active, .rightkey:active, .downkey:active {
+    box-shadow: 0 0 10px rgb(230, 0, 69);
+}
+
+.upkey {
+    width: 95px;
+    height: 102px;
+    border: 0;
+    border-radius: 15px;
+    background: url(img/arrowKeys_2.png);
+    background-position: 0 -102px;
+    /* float: left; */
+    display: block;
+    margin-left: 98px;
+    margin-top: 20px;
+}
+
+.leftkey {
+    width: 95px;
+    height: 102px;
+    border: 0;
+    border-radius: 15px;
+    background: url(img/arrowKeys_2.png);
+    background-position: 0 0;
+    /* float: left; */
+    display: inline-block;    
+}
+
+.downkey {
+    width: 95px;
+    height: 102px;
+    border: 0;
+    border-radius: 15px;
+    background: url(img/arrowKeys_2.png);
+    background-position: 0 -306px;
+    /* float: left;     */
+    display: inline-block;
+}
+
+.rightkey {
+    width: 95px;
+    height: 102px;
+    border: 0;
+    border-radius: 15px;
+    background: url(img/arrowKeys_2.png);
+    background-position: 0 -204px;
+    /* float: left;     */
+    display: inline-block;
+}
+
+
+
